@@ -36,12 +36,11 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID",27021332 )
+	API_ID = int(os.environ.get("API_ID","27021332" )
 	API_HASH = os.environ.get("API_HASH","6d725bbfdbf0d9e63240889bd3a72827")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7138369837:AAGiq309HFbINOyid8fOwm8q-Q_-YkGbGcc")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" ,"Linkwale_filebot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002242390359
-				    ))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002242390359"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1473392446"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Filesbot:<password>@cluster1.ntfntfo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002242390359")
