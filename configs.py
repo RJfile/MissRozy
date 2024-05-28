@@ -36,15 +36,16 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", )
-	API_HASH = os.environ.get("API_HASH", "")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-	DATABASE_URL = os.environ.get("DATABASE_URL","")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-")
+	API_ID = int(os.environ.get("API_ID",27021332 )
+	API_HASH = os.environ.get("API_HASH","6d725bbfdbf0d9e63240889bd3a72827")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7138369837:AAGiq309HFbINOyid8fOwm8q-Q_-YkGbGcc")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" ,Linkwale_filebot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002242390359
+				    ))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1473392446"))
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Filesbot:<password>@cluster1.ntfntfo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002242390359")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL","-1002242390359")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", False))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -74,9 +75,9 @@ class Config(object):
 
 🧑🏻‍💻 **DΞVΞLФPΞЯ:** [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢r](https://t.me/LazyDeveloperr)
 
-👥 **šupp⊕r† gr⊕up:** [LazY-SupP⊕ЯΓ](https://t.me/LazyDeveloperSupport)
+👥 **šupp⊕r† gr⊕up:** [LazY-SupP⊕ЯΓ]()
 
-📢 **U͢p͢d͢a͢t͢e͢s͢ C͢h͢a͢n͢n͢e͢l͢:** [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢](https://t.me/LazyDeveloper)
+📢 **U͢p͢d͢a͢t͢e͢s͢ C͢h͢a͢n͢n͢e͢l͢:** [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢]()
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 <a href='https://t.me/LazyDeveloperr'>**ミ★- L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢ -★彡** </a>
