@@ -39,7 +39,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID","27021332")
 	API_HASH = os.environ.get("API_HASH","6d725bbfdbf0d9e63240889bd3a72827")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7481804342:AAHgbD9GlGYi6f3xCERo-BQ6xIh9u6cRfn8")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" ,"Linkwale_filebot")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" ,"Linkewale_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002242390359"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1473392446"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://DB1:DB1@db1.3ogvnqx.mongodb.net/?retryWrites=true&w=majority")
