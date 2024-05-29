@@ -36,7 +36,7 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID","27021332")
+	API_ID = int(os.environ.get("API_ID","27021332"))
 	API_HASH = os.environ.get("API_HASH","6d725bbfdbf0d9e63240889bd3a72827")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7481804342:AAHgbD9GlGYi6f3xCERo-BQ6xIh9u6cRfn8")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" ,"Linkewale_bot")
